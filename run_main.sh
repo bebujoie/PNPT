@@ -9,7 +9,7 @@ CUDA_VISIBLE_DEVICES=1 python main.py \
     --seed 42 \
     --output_dir output \
     --max_length 128 \
-    --model_name_or_path /data/llp/pretrained_models/bert-base-uncased \
+    --model_name_or_path bert-base-uncased \
     --per_device_train_batch_size 4 \
     --num_train_iters 30000 \
     --num_valid_iters 1000 \
