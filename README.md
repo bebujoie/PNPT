@@ -13,16 +13,3 @@ Set the corresponding parameter values in the script, and then run:
 ```
 sh run_main.sh
 ```
-Some explanations of the parameters in the script:
-```
---model_name_or_path
-	the path for the BERT-base-uncased
---use_cp
-	select bert or cp as backend model
---num_valid_iters
-	1000, the evaluation iteration
---load_ckpt
-	the path of the trained model
---do_test
-  run the test stage after train.
-```
